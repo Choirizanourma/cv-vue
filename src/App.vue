@@ -5,14 +5,14 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <main>
-  <div class="navbar">
+    <!-- <main> -->
+  <!-- <div class="navbar">
     <div class="img">
-    <img alt="Vue logo" class="logo" src="@/assets/fotocasual.jpeg" style="max-width: 30%; border: none; outline: none; height: 20%;" />
+    <img alt="Vue logo" class="logo" src="@/assets/Fotocasual.jpg" style="max-width: 30%; border: none; outline: none; height: 20%;" />
     </div>
-  </div>
+  </div> -->
 
-  <div class="ingpo">
+  <!-- <div class="ingpo">
     <h1>CHOIRIZA NOURMA UTAMI</h1>
     <h5>Front-End</h5>
     <h1>Profil Pribadi</h1>
@@ -22,8 +22,8 @@ import HelloWorld from './components/HelloWorld.vue'
     <p>- Desain UI/UX</p>
     <p>- Aplikasi Berbasis Web</p>
     <p>- Desain Wordpress</p>
-  </div>
-  </main>
+  </div> -->
+  <!-- </main> -->
     <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
 
     <div class="wrapper">
@@ -32,9 +32,9 @@ import HelloWorld from './components/HelloWorld.vue'
       
     </div>
   </header>
-      <nav>
-        <RouterLink to="/">Personal</RouterLink>
-        <RouterLink to="/skill">Skill</RouterLink>
+      <nav class="text-center">
+        <RouterLink to="/"><i class="fa-solid fa-user"></i> Personal</RouterLink>
+        <RouterLink to="/skill"><i class="fa-regular fa-bookmark"></i> Skill</RouterLink>
       </nav>
 
   <RouterView />
